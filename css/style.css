@@ -6,6 +6,9 @@ nav{
     margin: 0px 60px;
 }
 
+ul{
+    align-items: center;
+}
 
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
@@ -17,6 +20,7 @@ nav{
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
+    border: none;
     color: white;
     padding: 10px 18px;
     border-radius: 5px;
@@ -38,4 +42,27 @@ nav ul li{
 }
 .dark-2{
     color: #474747;
+}
+/* banner style */
+.banner-title{
+   font-size: 85px;
+   font-weight: 800px; 
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner-content{
+    max-width: 550px;
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
 }
